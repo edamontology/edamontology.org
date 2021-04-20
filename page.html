@@ -11,8 +11,66 @@
 		<link rel="alternate" type="text/csv; charset=utf-8" title="CSV representation of EDAM" href="http://edamontology.org/EDAM.csv"/>
 		<link rel="alternate" type="text/tab-separated-values; charset=utf-8" title="TSV representation of EDAM" href="http://edamontology.org/EDAM.tsv"/>
 		<script src="document.min.js" userjs="user.js" icon="favicon.ico" id="DOC" onerror="var l=document.createElement('link'),s=document.createElement('script');l.rel='stylesheet';l.href='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css';l.id='bootstrap.css';l.auto='1';document.head.insertBefore(l,document.getElementById('DOC'));s.src='http://aplib.github.io/document.min.js';document.head.appendChild(s);"></script>
+	  <style>
+
+			.navbar-default {
+				height: 55px;
+				}
+
+			.navbar-brand {
+        font-size: 1.5em;
+				}
+
+      .navbar{
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .navbar-nav{
+        font-size: 1.5em;
+      }
+		
+		</style>
 	</head>
 	<body>
+
+	<nav class="navbar navbar-default" >
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div  class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">EDAM</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#Viewing">Viewing</a></li>
+		<li><a href="#Download">Downloads</a></li>
+		<li><a href="#Documentation">Documentation</a></li>
+		<li><a href="#Scope">Scope</a></li>
+		<li><a href="#Architecture">Architecture</a></li>
+
+ 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><button type="button" href="#Documentation" class="btn btn-default navbar-btn"><a href="#Contacts">CONTACT US</a></button></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Credentials<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#License">Licence</a></li>
+            <li><a href="#Publications">Publications</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
 <!--header-panel
 # EDAM - Ontology of bioscientific data analysis
