@@ -124,9 +124,9 @@
 -->
 
 <!--content-panel
-EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within bioscientific data analysis and data management (including computational biology, bioinformatics, and [bioimage informatics](https://github.com/edamontology/edam-bioimaging)). EDAM includes topics, operations, types of data and data identifiers, and data formats, relevant in data analysis and data management in life sciences. EDAM provides a set of concepts with preferred terms and synonyms, related terms, definitions, and other information - organised into a simple and intuitive hierarchy for convenient use (see figures below).
+EDAM is a comprehensive ontology of well-established, familiar concepts that are prevalent within scientific data analysis and data management (both within and beyond life sciences and [imaging](https://github.com/edamontology/edam-bioimaging)). EDAM includes topics, operations, types of data and data identifiers, and data formats. EDAM provides a set of concepts with preferred terms and synonyms, related terms, definitions, and other information - organised into a simple and intuitive hierarchy for convenient use (see figures below).
 
-EDAM is particularly suitable for semantic annotations and categorisation of diverse resources related to data analysis and management: _e.g._ tools, workflows, learning materials, or standards. EDAM is also useful in data management itself, for recording provenance metadata of processed bioscientific data.
+EDAM is particularly suitable for semantic annotations and categorisation of diverse scientific resources: _e.g._ tools, workflows, learning materials, or standards. EDAM is also useful in data management itself, for recording provenance metadata of processed scientific data.
 
 EDAM is a community project and its development can be followed and contributed to at [GitHub](https://github.com/edamontology/edamontology).
 
@@ -135,7 +135,7 @@ EDAM is a community project and its development can be followed and contributed 
 
 EDAM can be graphically browsed online at:
 
-*   [NCBO ontology browser (BioPortal)](https://bioportal.bioontology.org/ontologies/EDAM?p=classes) (all-newest _unstable_ version)
+*   [NCBO ontology browser (BioPortal)](https://bioportal.bioontology.org/ontologies/EDAM?p=classes) (all-newest _"unstable"_ version)
 *   [EBI Ontology Look-up Service (OLS)](https://www.ebi.ac.uk/ols/ontologies/edam) (latest **stable** version)
 *   [EDAM Browser](https://edamontology.github.io/edam-browser/) (<b>new: all versions!</b>)
 *   WebProtégé (free registration required)
@@ -149,21 +149,21 @@ EDAM can be graphically browsed online at:
 
 
 ##   <p></p><a id="Download"></a>Downloads
-[https://edamontology.org/EDAM_unstable.owl](https://edamontology.org/EDAM_unstable.owl) (The all-newest, _unstable_ released version)
+[https://edamontology.org/EDAM.owl](https://edamontology.org/EDAM.owl) (The all-newest, possibly _"unstable"_ released version)
 
 [<b>https://edamontology.org/EDAM_1.25.owl</b>](https://edamontology.org/EDAM_1.25.owl) (The latest **stable** version is at the moment <b>1.25</b>)
 
-[<b>https://edamontology.org/EDAM.owl</b>](https://edamontology.org/EDAM.owl) (Always the latest stable version, in OWL format)
+[<b>https://edamontology.org/EDAM_stable.owl</b>](https://edamontology.org/EDAM_stable.owl) (Always the latest stable version, in OWL format)
+
+[<b>https://edamontology.org/EDAM.tsv</b>](https://edamontology.org/EDAM.tsv) (The latest version available in TSV format)
 
 [<b>https://edamontology.org/EDAM_1.25.tsv</b>](https://edamontology.org/EDAM_1.25.tsv) (Stable version <b>1.25</b>, as tab-separated values (TSV))
 
-[<b>https://edamontology.org/EDAM.tsv</b>](https://edamontology.org/EDAM.tsv) (Always the latest stable version, in TSV format)
+[<b>https://edamontology.org/EDAM.csv</b>](https://edamontology.org/EDAM.csv) (The latest version available in CSV format)
 
 [<b>https://edamontology.org/EDAM_1.25.csv</b>](https://edamontology.org/EDAM_1.25.csv) (Stable version <b>1.25</b>, as comma-separated values (CSV))
 
-[<b>https://edamontology.org/EDAM.csv</b>](https://edamontology.org/EDAM.csv) (Always the latest stable version, in CSV format)
-
-[https://edamontology.org/EDAM.obo](https://edamontology.org/EDAM.obo) (The last version available in OBO format is an ancient EDAM version <b>1.2</b>. Because the conversion from OWL to OBO hasn't yet fully been automated for EDAM, we will only resume providing OBO format in case of substantial demand. In that case, please contact us via [issues](https://github.com/edamontology/edamontology/issues/new).)
+[https://edamontology.org/EDAM.obo](https://edamontology.org/EDAM.obo) (The last version available in OBO format is an ancient EDAM version <b>1.2</b>. Because the conversion from OWL to OBO hasn't yet fully been automated for EDAM, we do not provide newer versions in the OBO format yet.)
 
 [https://github.com/edamontology/edamontology/releases](https://github.com/edamontology/edamontology/releases) (All stable releases of EDAM)
 
@@ -191,13 +191,13 @@ Community chat is on <b>Gitter:</b> [https://gitter.im/edamontology/edamontology
 
 EDAM includes 4 main sections of concepts (sub-ontologies):
 
-*   _**[Topic](https://edamontology.org/topic)**_ - “A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other.”
-*   _**[Operation](https://edamontology.org/operation)**_ - “A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).”
+*   _**[Topic](https://edamontology.org/topics)**_ - “A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other.”
+*   _**[Operation](https://edamontology.org/operations)**_ - “A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).”
 *   _**[Data](https://edamontology.org/data)**_ - “Information, represented in an information artefact (data record) that is 'understandable' by dedicated computational tools that can use the data as input or produce it as output.”
-*   _**[Format](https://edamontology.org/format)**_ - “A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.”
+*   _**[Format](https://edamontology.org/formats)**_ - “A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.”
 
 Noteworthy sub-section:
-*   _**Data -> [Identifier](https://edamontology.org/identifier)**_ - “A text token, number or something else which identifies an entity, but which may not be persistent (stable) or unique (the same identifier may identify multiple things).”
+*   _**Data -> [Identifier](https://edamontology.org/identifiers)**_ - “A text token, number or something else which identifies an entity, but which may not be persistent (stable) or unique (the same identifier may identify multiple things).”
 
 <img alt="EDAM concepts" src="EDAMconcepts.png" style="max-height: 36em; max-width: 94%">
 
@@ -238,7 +238,7 @@ An up-to-date description of EDAM is available in the following extended abstrac
 <b>The newest posters, available as PDF:</b>
 
 *   [EDAM](poster.pdf) (2022)
-*   [EDAM Bioimaging](poster-bioimaging.pdf) (2020)
+*   [EDAM Bioimaging](poster-bioimaging.pdf) (2024)
 *   [EDAM Browser](poster-browser.pdf) (2021)
 *   [EDAM and EDAM tools](poster-tools.pdf) (2022)
 
@@ -255,9 +255,9 @@ An up-to-date description of EDAM is available in the following extended abstrac
 -->
 
 <!--footer-panel
-<small>Last update: 2024-Feb-13</small>
+<small>Last update: 2024-Oct-30</small>
 -->
 
-		<noscript><div class="alert alert-warning">This website requires your browser to have JavaScript enabled.</div></noscript>
+		<noscript><div class="alert alert-warning">This website assumes that your web browser has JavaScript enabled.</div></noscript>
 	</body>
 </html>
